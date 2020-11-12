@@ -58,7 +58,7 @@ Person.prototype.toString = function(){
   return `Name: ${this.name}, Age: ${this.age}`;
 }
 
-
+console.log(Person(Mary, 50))
 
 /*
   TASK 2
@@ -75,9 +75,8 @@ Person.prototype.toString = function(){
 */
 
 function Car() {
-  this.model;
-  this.milesPerGallon
-
+  
+}
 
 /*
   TASK 3
@@ -110,5 +109,4 @@ if (typeof exports !== 'undefined') {
   if (Person) { module.exports.Person = Person }
   if (Car) { module.exports.Car = Car }
   if (Baby) { module.exports.Baby = Baby }
-}
 }
